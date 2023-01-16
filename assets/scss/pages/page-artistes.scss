@@ -1,0 +1,41 @@
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80vw;
+    gap: 12.5%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 10vw;
+}
+
+.one {
+    height: 60vh;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $footer;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15vh;
+    background-image: url(../wp-content/themes/crespa/assets/images/background_artiste.svg);
+    div:nth-child(1) {
+        border-radius: 50%;
+        width: 60%;
+        height: 42%;
+        background-color: $bleu;
+    }
+}
+
+.name {
+    font-size: 2em;
+}
+
+.courte_description {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.artistes {
+    height: 100%;
+}
